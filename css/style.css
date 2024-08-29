@@ -159,6 +159,17 @@ main > * {
   margin: 100px auto;
 }
 
+footer {
+  background: #262626;
+  color: rgba(255, 255, 255, 0.65);
+  padding: 0.1rem;
+  font-size: 10px;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
 @media (max-width: 1000px) {
   #nav-principal {
     display: none;
@@ -202,6 +213,12 @@ main > * {
 
   main {
     margin: 0 10%;
+  }
+
+  footer {
+    justify-content: center;
+    text-align: left;
+    font-size: 8px;
   }
 }
 
