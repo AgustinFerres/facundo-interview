@@ -24,8 +24,10 @@ body > .nav-wrapper {
   height: 60px;
 }
 
-body > div > a .header-logo emergentes {
-  position: absolute;
+.emergentes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #fill {
