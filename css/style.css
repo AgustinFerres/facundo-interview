@@ -97,14 +97,17 @@ main > * {
 #interview .dictate {
   line-height: 1.5;
   font-size: 22px;
-  margin: 20px auto;
+  margin: 20px 0;
+  text-align: left;
+  align-self: flex-start;
+  white-space: balance;
 }
 
 #interview .question {
   font-size: 1.25rem;
   line-height: 1.5;
-  margin: 20px auto;
   font-weight: bold;
+  align-self: flex-start;
 }
 
 #interview-header h1 {
