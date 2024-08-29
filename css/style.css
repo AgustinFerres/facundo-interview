@@ -85,6 +85,10 @@ main > * {
   color: #262626;
 }
 
+.italic {
+  font-style: italic;
+}
+
 #interview {
   display: flex;
   flex-direction: column;
