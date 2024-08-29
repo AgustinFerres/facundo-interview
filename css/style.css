@@ -159,7 +159,13 @@ main > * {
   margin: 100px auto;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1000px) {
+  #nav-principal {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
   .nav-wrapper {
     width: 100vw;
   }
